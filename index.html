@@ -1,1 +1,77 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andrew's Arcade</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101827;
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 45px 15px;
+      background: #192641;
+    }
+    h1 { color: #4de1ff; font-size: 38px; }
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .game {
+      background: #25334b;
+      padding: 25px;
+      border-radius: 15px;
+    }
+    .emoji { font-size: 65px; }
+    .play {
+      display: inline-block;
+      background: #2878ff;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .play:hover { background: #12b8e8; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎮 Andrew's Arcade</h1>
+    <p>Welcome! Choose a game and start playing.</p>
+  </header>
+
+  <main class="games">
+    <div class="game">
+      <div class="emoji">🚀</div>
+      <h2>Game One</h2>
+      <p>My first exciting game!</p>
+      <a class="play" href="#">Coming Soon</a>
+    </div>
+
+    <div class="game">
+      <div class="emoji">🏎️</div>
+      <h2>Game Two</h2>
+      <p>Another fun game to enjoy.</p>
+      <a class="play" href="#">Coming Soon</a>
+    </div>
+
+    <div class="game">
+      <div class="emoji">👾</div>
+      <h2>Game Three</h2>
+      <p>More adventures await!</p>
+      <a class="play" href="#">Coming Soon</a>
+    </div>
+  </main>
+</body>
+</html>
+
